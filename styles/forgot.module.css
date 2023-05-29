@@ -1,0 +1,27 @@
+.bg {
+    height: 100vh;
+    background-image:url("../public/image.jpg") ;
+    background-position: center;
+    background-size: cover;
+    }
+
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.8);
+    }
+    
+    .hello{
+        font-weight: 900;
+    }
+    .contentsection{
+        font-family: 'Montserrat';
+        
+    }
+
+    .greetingtext{
+        font-weight: 900;
+    }

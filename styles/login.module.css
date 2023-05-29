@@ -1,0 +1,90 @@
+/* 
+.main{
+    height: 100vh;
+    background-image:url("../public/image.jpg") ;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+}
+.inner_section{
+    position: absolute;
+    width: 570px;
+    height: 70vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    margin: auto;
+    font-family: 'Montserrat';
+
+
+}
+.greetingtext{
+    font-size: 50px;
+
+}
+
+
+
+.input_group input{
+    width: 350px;
+    height: 40px;
+}
+
+.button{
+    width: 350px;
+}
+@media only screen and (max-width: 600px) {
+    .inner_section{
+        inline-size: 300px;
+    }
+    .logo img{
+        inline-size: 150px;
+    }
+    .hello{
+        font-size: 20px;
+    }
+    .greetingtext{
+        font-size: 20px;
+    }
+    .input_group input{
+        inline-size: 200px;
+    }
+} */
+
+.bg {
+    height: 100vh;
+    background-image:url("../public/image.jpg") ;
+    background-position: center;
+    background-size: cover;
+    }
+
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.8);
+    }
+    
+    .hello{
+        font-weight: 900;
+    }
+    .contentsection{
+        font-family: 'Montserrat';
+        
+    }
+
+    .greetingtext{
+        font-weight: 900;
+    }
