@@ -1,6 +1,3 @@
-import ThingsComponent from "@/components/things-component";
-import { ThingsProvider } from "@/contextAPI/things-context";
-
 export default function ShopPage() {
   const things = [
     { id: 1, name: "thing 1", length: 5 },
@@ -12,10 +9,9 @@ export default function ShopPage() {
 
   return (
     <>
-      <ThingsProvider value={things}>
+      
         <div>Shop Page</div>
-        <ThingsComponent />
-      </ThingsProvider>
+        
     </>
   );
 }
